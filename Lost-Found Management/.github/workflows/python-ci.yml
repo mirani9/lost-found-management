@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -33,5 +36,5 @@ jobs:
           python -m py_compile "Lost-Found Management/app.py"
 
       - name: Run tests
-        working-directory: Lost-Found Management
-        run: pytest -q
+        working-directory: "Lost-Found Management"
+        run: python -m pytest -q
