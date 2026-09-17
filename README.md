@@ -1,4 +1,4 @@
-# Lost and Found Management System For Collage
+# Lost and Found Management System For College
 
 ## Overview
 The Lost and Found Management System is a web application designed to help users report lost or found items. It allows users to register using their college email, log in, report items, and manage their profile. The system sends OTPs for email verification and password recovery. 
