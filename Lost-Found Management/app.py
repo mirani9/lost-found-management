@@ -143,6 +143,7 @@ def home_page():
 
 
 @app.route('/add_item', methods=['GET', 'POST'])
+@login_required
 def add_item():
     if request.method == 'POST':
         name = request.form.get('name')
