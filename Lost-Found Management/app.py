@@ -166,6 +166,7 @@ def add_item():
             category_id=category_id,
             status=status,
             date=date,
+            location=location,
             image_file=image_filename,
             user_id=current_user.id
         )
